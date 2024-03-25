@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30 33 67);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: #8787bd;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.leftsec {
+    font-size: 3rem;
+    width: 50%;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.button .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.rightsec {
+    width: 50%;
+}
+
+.rightsec img {
+    width: 100%;
+    margin: 50px 0;
+    height: 50%;
+
+}
+
+main hr {
+    border: 0;
+    background-color: grey;
+    height: 2px;
+    margin: 40px 84px;
+}
+
+.purple {
+    color: rgb(190, 190, 239);
+    font-size: 55px;
+}
+
+.gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(164, 170, 195);
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+}
+
+footer {
+    background-color: #8787bd;
+    height: 60px;
+}
+
+.footer2 {
+    margin-left: 500px;
+}
+
+.leftsec .btn {
+    padding: 12px;
+    background-color: rgb(123, 120, 120);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsec .button {
+    padding: 50px 0;
+}
+
+.second {
+    height: 70vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.second .rightsection p {
+    text-align: center;
+    margin: -260px 13px 0px 400px;
+    font-size: 22px;
+    width: 556px;
+    margin-left: 30px;
+    border: 2px solid #8686ba;
+    padding: 15px;
+    font-weight: 300;
+}
+
+
+.second .leftsection img {
+    margin-left: 40px;
+    height: 230px;
+    border-radius: 50%;
+    width: 290px;
+    padding: 45px 13px;
+}
+
+.second h1 {
+
+    font-size: 2.5rem;
+}
+
+.second .leftsection {
+    width: 30%;
+}
+
+.second .rightsection {
+
+    float: right;
+    margin-right: 100px;
+}
+
+.third {
+    height: 50vh;
+    max-width: 80vw;
+}
+
+.third h1 {
+    font-size: 2.5rem;
+    margin-left: 130px;
+    margin-bottom: 40px;
+}
+
+.third .info {
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.third .info div {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.third .info img {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+
+}
+
+.third .linkedin a {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.third .email a {
+    text-decoration: underline;
+    color: white;
+}
